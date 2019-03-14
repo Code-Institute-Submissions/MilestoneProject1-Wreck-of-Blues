@@ -1,25 +1,88 @@
+.container-fluid {
+    padding: 0!important;
+}
+
+.container {
+    padding: 0!important;
+}
+
+.row {
+    padding: 0!important;
+}
+
+section {
+    margin-left: -15px!important;
+    margin-right: -15px!important;
+}
+
+.body {
+    margin: 0!important;
+}
+
+/*----------Navbar--------*/
+
+.bg-light {
+    background-color: transparent!important;
+}
+
+
+.navbar-toggler {
+    background-color: rgb(188, 119, 22, 0.5);
+}
+
+.dropdown-item {
+    color: white;
+    font-size: 25px!important;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(188, 119, 22, 0.3);
+    width: 200px;
+    float: right;
+}
+
+.dropdown-menu-right {
+    border-radius: 4px;
+}
+
+.ita {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.itb {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+
 /*----------Home Area--------*/
+
+.homearea {
+    width: 100%;
+    height: auto;
+}
 
 .homebg {
     background-image: url(../assets/bandcover.jpg);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
-    height: auto;
+    height: 100%;
     width: 100%;
-    margin-top: -70px;
-    float: none;
+    display: block;
 }
 
-/*----------Navbar--------*/
+.introtext {
+    color: white;
+    font-size: large;
+}
 
-
-
-
-
-
-
-
+.intro {
+    position: fixed;
+    top: auto;
+}
 
 
 
@@ -28,29 +91,58 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-    .homebg {
-        height: 300px;
+    .homearea {
+        height: 400px!important;
     }
+    .intro {
+        display: none!important;
+    }
+
 }
+
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media only screen and (min-width: 600px) {
-    .homebg {
-        height: 300px;
+    .intro {
+        display: none!important;
     }
+    .homearea {
+        height: 500px!important;
+    }
+
 }
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .homearea {
+        height: 600px!important;
+    }
+    .intro {
+        top: 350px!important;
+        display: inherit!important;
+    }
+    .introtext {
+        font-size: medium!important;
+    }
+
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
-    .homebg {
-        height: 1000px;
+    .homearea {
+        height: 1000px!important;
     }
+    .intro {
+        top: 650px!important;
+        display: inherit!important;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
