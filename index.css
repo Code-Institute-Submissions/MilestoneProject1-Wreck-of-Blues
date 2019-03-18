@@ -8,15 +8,57 @@
 
 .row {
     padding: 0!important;
+    margin: 0!important;
 }
 
 section {
-    margin-left: -15px!important;
-    margin-right: -15px!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
 }
 
 .body {
     margin: 0!important;
+}
+
+/*----------Font Mod--------*/
+
+.newtext {
+    color: white;
+    font-weight: bolder;
+    text-shadow: rgb(1, 48, 79) 1px 1px;
+}
+
+.moreshowtext {
+    color: rgb(1, 48, 79);
+    text-shadow: yellow 1px 1px;
+    font-weight: bolder;
+}
+
+.latestnewstext {
+    font-size: 5vw;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: rgb(1, 48, 79);
+    text-shadow: yellow 2px 2px;
+    padding: 2vh;
+}
+
+.showinfotext {
+    color: white;
+    font-weight: bolder;
+    text-shadow: rgb(1, 48, 79) 1px 1px;
+    transition: 0.3s;
+    }
+
+.showinfotext:hover {
+    color: rgb(1, 48, 79);
+    text-shadow: yellow 1px 1px;
+    font-weight: bolder;
+}
+
+.topofpagetxt {
+    color: rgb(188, 119, 22);
+     text-shadow: black 1px 1px;
 }
 
 /*----------Navbar--------*/
@@ -57,11 +99,13 @@ section {
 }
 
 
+
 /*----------Home Area--------*/
 
 .homearea {
     width: 100%;
     height: auto;
+    margin: 0!important;
 }
 
 .homebg {
@@ -71,7 +115,6 @@ section {
     background-size: cover;
     height: 100%;
     width: 100%;
-    display: block;
 }
 
 .introtext {
@@ -80,9 +123,38 @@ section {
 }
 
 .intro {
-    position: fixed;
-    top: auto;
+    margin-top: auto;
 }
+
+/*----------News Area--------*/
+
+.newbg {
+    background-image: url(../assets/pave.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    background-attachment: fixed;
+}
+
+.rownews {
+    padding-bottom: 2.5vh;
+}
+
+/*----------tour--------*/
+
+.pgbreak {
+     background-image: url(../assets/bandstage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
 
 
 
@@ -92,10 +164,20 @@ section {
 
 @media only screen and (max-width: 600px) {
     .homearea {
-        height: 400px!important;
+        height: 300px!important;
     }
     .intro {
         display: none!important;
+    }
+    .latestnewstext {
+        font-size: 50px!important;
+    }
+    .upcomingbg,
+     .tourbg {
+        height: 400px!important;
+    }
+    .pgbreak {
+        height: 200px!important;
     }
 
 }
@@ -109,10 +191,16 @@ section {
         display: none!important;
     }
     .homearea {
-        height: 500px!important;
+        height: 400px!important;
     }
-
+    .latestnewstext {
+        font-size: 50px!important;
+    }
+    .pgbreak {
+        height: 250px!important;
+    }
 }
+
 
 
 
@@ -120,31 +208,71 @@ section {
 
 @media only screen and (min-width: 768px) {
     .homearea {
-        height: 600px!important;
+        height: 700px!important;
     }
     .intro {
-        top: 350px!important;
+        margin-top: 380px!important;
         display: inherit!important;
     }
     .introtext {
         font-size: medium!important;
     }
-
+    .latestnewstext {
+        font-size: 50px!important;
+    }
+    .upcomingbg,
+    .tourbg {
+        height: 300px!important;
+    }
+    .pgbreak {
+        height: 300px!important;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
     .homearea {
-        height: 1000px!important;
+        height: 800px!important;
     }
     .intro {
-        top: 650px!important;
+        margin-top: 500px!important;
         display: inherit!important;
+    }
+    .latestnewstext {
+        font-size: 5vw!important;
+    }
+    .upcomingbg,
+    .tourbg {
+        height: 500px!important;
+    }
+    .pgbreak {
+        height: 400px!important;
     }
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+    .homearea {
+        height: 1000px!important;
+    }
+    .intro {
+        margin-top: 65vh!important;
+        display: inherit!important;
+    }
+    .introtext {
+        font-size: larger!important;
+    }
+    .latestnewstext {
+        font-size: 5vw!important;
+    }
+    .upcomingbg,
+    .tourbg {
+        height: 600px!important;
+    }
+    .pgbreak {
+        height: 450px!important;
+    }
+}
