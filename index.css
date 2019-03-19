@@ -147,10 +147,6 @@ section {
 }
 
 
-/*----------music--------*/
-
-
-
 /*----------tour--------*/
 
 .pgbreak {
@@ -169,7 +165,7 @@ section {
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
-    height: 450px;
+    height: auto;
     width: 100%;
 }
 
@@ -311,6 +307,9 @@ section {
     .musicmod {
         left: 10%!important;
     }
+    .pgbreak2 {
+        height: 250px!important;
+    }
 
 }
 
@@ -334,6 +333,9 @@ section {
     .musicmod {
         left: 10%!important;
     }
+    .pgbreak2 {
+        height: 350px!important;
+    }
 }
 
 
@@ -343,7 +345,7 @@ section {
 
 @media only screen and (min-width: 768px) {
     .homearea {
-        height: 700px!important;
+        height: 650px!important;
     }
     .intro {
         margin-top: 380px!important;
@@ -351,6 +353,7 @@ section {
     }
     .introtext {
         font-size: medium!important;
+        margin-top: -60px;
     }
     .latestnewstext {
         font-size: 50px!important;
@@ -390,6 +393,12 @@ section {
     .musicmod {
         left: 5%!important;
     }
+    .introtext {
+        margin-top: 0px!important;
+    }
+    .pgbreak2 {
+        height: 550px!important;
+    }
 
 }
 
@@ -405,6 +414,7 @@ section {
     }
     .introtext {
         font-size: larger!important;
+        margin-top: 50px;
     }
     .latestnewstext {
         font-size: 5vw!important;
@@ -418,5 +428,8 @@ section {
     }
     .musicmod {
         left: 5%!important;
+    }
+    .pgbreak2 {
+        height: 550px!important;
     }
 }
