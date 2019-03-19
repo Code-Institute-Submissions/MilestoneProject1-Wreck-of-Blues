@@ -1,3 +1,5 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
 .container-fluid {
     padding: 0!important;
 }
@@ -48,7 +50,7 @@ section {
     font-weight: bolder;
     text-shadow: rgb(1, 48, 79) 1px 1px;
     transition: 0.3s;
-    }
+}
 
 .showinfotext:hover {
     color: rgb(1, 48, 79);
@@ -58,7 +60,7 @@ section {
 
 .topofpagetxt {
     color: rgb(188, 119, 22);
-     text-shadow: black 1px 1px;
+    text-shadow: black 1px 1px;
 }
 
 /*----------Navbar--------*/
@@ -144,10 +146,15 @@ section {
     padding-bottom: 2.5vh;
 }
 
+
+/*----------music--------*/
+
+
+
 /*----------tour--------*/
 
 .pgbreak {
-     background-image: url(../assets/bandstage.jpg);
+    background-image: url(../assets/bandstage.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -155,7 +162,129 @@ section {
     width: 100%;
 }
 
+/*----------Contact--------*/
 
+.pgbreak2 {
+    background-image: url(../assets/wr.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.formbg {
+    background-color: rgb(66, 101, 244, 0.8);
+}
+
+
+/*----------Footer--------*/
+
+.footer {
+   background-color: black;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+.fa-facebook {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+
+}
+
+.fa-facebook:hover {
+    color: rgb(188, 119, 22)!important;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.fa-youtube {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.fa-youtube:hover {
+    color: rgb(188, 119, 22)!important;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.fa-spotify {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.fa-spotify:hover {
+    color: rgb(188, 119, 22)!important;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.fa-amazon {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.fa-amazon:hover {
+    color: rgb(188, 119, 22)!important;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.homebt {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.homebt:hover {
+    color: rgb(188, 119, 22)!important;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    text-decoration: none;
+}
 
 
 /*----------Media--------*/
@@ -173,11 +302,14 @@ section {
         font-size: 50px!important;
     }
     .upcomingbg,
-     .tourbg {
+    .tourbg {
         height: 400px!important;
     }
     .pgbreak {
         height: 200px!important;
+    }
+    .musicmod {
+        left: 10%!important;
     }
 
 }
@@ -198,6 +330,9 @@ section {
     }
     .pgbreak {
         height: 250px!important;
+    }
+    .musicmod {
+        left: 10%!important;
     }
 }
 
@@ -227,6 +362,9 @@ section {
     .pgbreak {
         height: 300px!important;
     }
+    .musicmod {
+        left: 10%!important;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -248,6 +386,9 @@ section {
     }
     .pgbreak {
         height: 400px!important;
+    }
+    .musicmod {
+        left: 5%!important;
     }
 
 }
@@ -274,5 +415,8 @@ section {
     }
     .pgbreak {
         height: 450px!important;
+    }
+    .musicmod {
+        left: 5%!important;
     }
 }
