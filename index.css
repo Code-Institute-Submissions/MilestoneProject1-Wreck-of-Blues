@@ -173,6 +173,13 @@ section {
     background-color: rgb(66, 101, 244, 0.8);
 }
 
+.form-group {
+    font-weight: bolder;
+    color: white;
+    text-shadow: black 1px 1px;
+    padding: 20px!important;
+}
+
 
 /*----------Footer--------*/
 
