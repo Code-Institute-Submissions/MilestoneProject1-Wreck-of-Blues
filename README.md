@@ -21,7 +21,7 @@ it further encourages viewers to view their other source material.
 
 1- Html
 2- Css
-3- Bootstrap
+3- Bootstrap 4
 
 ## Features
 

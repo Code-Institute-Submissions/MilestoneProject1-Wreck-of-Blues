@@ -12,8 +12,8 @@
 }
 
 section {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .body {
@@ -299,6 +299,9 @@ row {
     text-align: center;
 }
 
+.fa-amazon,
+.fa-spotify,
+.fa-youtube,
 .fa-facebook {
     -o-transition: .5s;
     -ms-transition: .5s;
@@ -309,6 +312,10 @@ row {
 
 }
 
+.home-bt:hover,
+.fa-amazon:hover,
+.fa-spotify:hover,
+.fa-youtube:hover,
 .fa-facebook:hover {
     color: rgb(188, 119, 22);
     -o-transition: .5s;
@@ -319,62 +326,6 @@ row {
     text-decoration: none;
 }
 
-.fa-youtube {
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    text-decoration: none;
-}
-
-.fa-youtube:hover {
-    color: rgb(188, 119, 22);
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    text-decoration: none;
-}
-
-.fa-spotify {
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    text-decoration: none;
-}
-
-.fa-spotify:hover {
-    color: rgb(188, 119, 22);
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    text-decoration: none;
-}
-
-.fa-amazon {
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    text-decoration: none;
-}
-
-.fa-amazon:hover {
-    color: rgb(188, 119, 22);
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    text-decoration: none;
-}
 
 .home-bt {
     -o-transition: .5s;
@@ -387,17 +338,6 @@ row {
     margin-left: auto;
     margin-right: auto;
 }
-
-.home-bt:hover {
-    color: rgb(188, 119, 22);
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
-    text-decoration: none;
-}
-
 
 /*----------Media--------*/
 
@@ -510,7 +450,7 @@ row {
         left: 5%;
     }
     .intro-text {
-        margin-top: 0px;
+        margin-top: 0;
     }
     .pg-break-2 {
         height: 550px;
