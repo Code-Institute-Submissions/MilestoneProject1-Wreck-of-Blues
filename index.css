@@ -100,8 +100,6 @@ section {
 
 }
 
-
-
 /*----------Home Area--------*/
 
 .homearea {
@@ -146,6 +144,23 @@ section {
     padding-bottom: 2.5vh;
 }
 
+.newband {
+    background-image: url(../assets/band.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.newfilm {
+    background-image: url(../assets/newstuff.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
 
 /*----------tour--------*/
 
@@ -158,6 +173,42 @@ section {
     width: 100%;
 }
 
+.gig1 {
+    background-image: url(../assets/gig1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.gig2 {
+    background-image: url(../assets/gig2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.gig3 {
+    background-image: url(../assets/gig3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+/*----------Video--------*/
+
+.video-responsive {
+    width: 100%;
+    background-color: #272c33;
+}
 /*----------Contact--------*/
 
 .pgbreak2 {
@@ -184,7 +235,7 @@ section {
 /*----------Footer--------*/
 
 .footer {
-   background-color: black;
+    background-color: black;
     right: 0;
     bottom: 0;
     left: 0;
@@ -406,6 +457,10 @@ section {
     .pgbreak2 {
         height: 550px!important;
     }
+    .newfilm,
+    .newband {
+        height: 150px!important;
+    }
 
 }
 
@@ -438,5 +493,12 @@ section {
     }
     .pgbreak2 {
         height: 550px!important;
+    }
+    .newsize {
+        height: 300px;
+    }
+    .newfilm,
+    .newband {
+        height: 230px!important;
     }
 }
