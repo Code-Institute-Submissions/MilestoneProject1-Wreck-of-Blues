@@ -116,7 +116,7 @@ row {
 }
 
 .home-bg {
-    background-image: url(../assets/bandcover.jpg);
+    background-image: url(../assets/img/bandcover.jpg);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -136,7 +136,7 @@ row {
 /*----------News Area--------*/
 
 .new-bg {
-    background-image: url(../assets/pave.jpg);
+    background-image: url(../assets/img/pave.jpg);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -148,7 +148,7 @@ row {
 }
 
 .new-bg-b {
-    background-image: url(../assets/pave.jpg);
+    background-image: url(../assets/img/pave.jpg);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -159,7 +159,7 @@ row {
 }
 
 .new-bg-c {
-    background-image: url(../assets/pave.jpg);
+    background-image: url(../assets/img/pave.jpg);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
@@ -174,7 +174,7 @@ row {
 }
 
 .new-band {
-    background-image: url(../assets/band.jpg);
+    background-image: url(../assets/img/band.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -183,7 +183,7 @@ row {
 }
 
 .new-film {
-    background-image: url(../assets/newstuff.jpg);
+    background-image: url(../assets/img/newstuff.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -194,7 +194,7 @@ row {
 /*----------tour--------*/
 
 .pg-break {
-    background-image: url(../assets/bandstage.jpg);
+    background-image: url(../assets/img/bandstage.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -205,7 +205,7 @@ row {
 }
 
 .gig-1 {
-    background-image: url(../assets/gig1.jpg);
+    background-image: url(../assets/img/gig1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -215,7 +215,7 @@ row {
 }
 
 .gig-2 {
-    background-image: url(../assets/gig2.jpg);
+    background-image: url(../assets/img/gig2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -225,7 +225,7 @@ row {
 }
 
 .gig-3 {
-    background-image: url(../assets/gig3.jpg);
+    background-image: url(../assets/img/gig3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -261,7 +261,7 @@ row {
 /*----------Contact--------*/
 
 .pg-break-2 {
-    background-image: url(../assets/wr.jpg);
+    background-image: url(../assets/img/wr.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
