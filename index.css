@@ -19,26 +19,29 @@ section {
 .body {
     margin: 0;
 }
-.container-fluid, row {
-    margin: 0; padding: 0; 
-    
+
+.container-fluid,
+row {
+    margin: 0;
+    padding: 0;
+
 }
 
 /*----------Font Mod--------*/
 
-.newtext {
+.new-text {
     color: white;
     font-weight: bolder;
     text-shadow: rgb(1, 48, 79) 1px 1px;
 }
 
-.moreshowtext {
+.more-show-text {
     color: rgb(1, 48, 79);
     text-shadow: yellow 1px 1px;
     font-weight: bolder;
 }
 
-.latestnewstext {
+.latest-news-text {
     font-size: 5vw;
     font-weight: bolder;
     letter-spacing: 2px;
@@ -47,20 +50,20 @@ section {
     padding: 2vh;
 }
 
-.showinfotext {
+.show-info-text {
     color: white;
     font-weight: bolder;
     text-shadow: rgb(1, 48, 79) 1px 1px;
     transition: 0.3s;
 }
 
-.showinfotext:hover {
+.show-info-text:hover {
     color: rgb(1, 48, 79);
     text-shadow: yellow 1px 1px;
     font-weight: bolder;
 }
 
-.topofpagetxt {
+.top-of-page-txt {
     color: rgb(188, 119, 22);
     text-shadow: black 1px 1px;
 }
@@ -106,13 +109,13 @@ section {
 
 /*----------Home Area--------*/
 
-.homearea {
+.home-area {
     width: 100%;
     height: auto;
     margin: 0;
 }
 
-.homebg {
+.home-bg {
     background-image: url(../assets/bandcover.jpg);
     background-repeat: no-repeat;
     background-position: top left;
@@ -121,7 +124,7 @@ section {
     width: 100%;
 }
 
-.introtext {
+.intro-text {
     color: white;
     font-size: large;
 }
@@ -132,7 +135,7 @@ section {
 
 /*----------News Area--------*/
 
-.newbg {
+.new-bg {
     background-image: url(../assets/pave.jpg);
     background-repeat: no-repeat;
     background-position: top left;
@@ -144,7 +147,7 @@ section {
     background-attachment: fixed;
 }
 
-.newbgb {
+.new-bg-b {
     background-image: url(../assets/pave.jpg);
     background-repeat: no-repeat;
     background-position: top left;
@@ -152,12 +155,25 @@ section {
     height: 100%;
     width: 100%;
     background-attachment: fixed;
+    border-top: solid 3px black;
 }
-.rownews {
+
+.new-bg-c {
+    background-image: url(../assets/pave.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    border-bottom: solid 3px black;
+}
+
+.row-news {
     padding-bottom: 2.5vh;
 }
 
-.newband {
+.new-band {
     background-image: url(../assets/band.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -166,7 +182,7 @@ section {
     width: 100%;
 }
 
-.newfilm {
+.new-film {
     background-image: url(../assets/newstuff.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -177,16 +193,18 @@ section {
 
 /*----------tour--------*/
 
-.pgbreak {
+.pg-break {
     background-image: url(../assets/bandstage.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 450px;
     width: 100%;
+    border: solid 3px black;
+
 }
 
-.gig1 {
+.gig-1 {
     background-image: url(../assets/gig1.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -196,7 +214,7 @@ section {
     margin-bottom: 2vh;
 }
 
-.gig2 {
+.gig-2 {
     background-image: url(../assets/gig2.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -206,7 +224,7 @@ section {
     margin-bottom: 2vh;
 }
 
-.gig3 {
+.gig-3 {
     background-image: url(../assets/gig3.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -220,12 +238,29 @@ section {
 
 .video-responsive {
     width: 100%;
-    background-color: #272c33;
+    background-color: white;
 }
+
+.video-mod>iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.video-mod {
+    margin-bottom: -10px;
+}
+
+/*----------Music--------*/
+
+.spotify-mod>iframe {
+    width: 80%;
+    height: 450px;
+}
+
 
 /*----------Contact--------*/
 
-.pgbreak2 {
+.pg-break-2 {
     background-image: url(../assets/wr.jpg);
     background-repeat: no-repeat;
     background-position: center top;
@@ -234,7 +269,11 @@ section {
     width: 100%;
 }
 
-.formbg {
+.pad-pic {
+    padding: 0!important;
+}
+
+.form-bg {
     background-color: rgb(66, 101, 244, 0.8);
 }
 
@@ -245,6 +284,9 @@ section {
     padding: 20px!important;
 }
 
+.submit-bt {
+    margin-bottom: 20px;
+}
 
 /*----------Footer--------*/
 
@@ -334,7 +376,7 @@ section {
     text-decoration: none;
 }
 
-.homebt {
+.home-bt {
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -346,7 +388,7 @@ section {
     margin-right: auto;
 }
 
-.homebt:hover {
+.home-bt:hover {
     color: rgb(188, 119, 22);
     -o-transition: .5s;
     -ms-transition: .5s;
@@ -362,26 +404,26 @@ section {
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-    .homearea {
+    .home-area {
         height: 300px;
     }
     .intro {
         display: none;
     }
-    .latestnewstext {
+    .latest-news-text {
         font-size: 50px;
     }
-    .upcomingbg,
-    .tourbg {
+    .upcoming-bg,
+    .tour-bg {
         height: 400px;
     }
-    .pgbreak {
+    .pg-break {
         height: 200px;
     }
-    .musicmod {
+    .music-mod {
         left: 10%;
     }
-    .pgbreak2 {
+    .pg-break-2 {
         height: 250px;
     }
 
@@ -395,19 +437,19 @@ section {
     .intro {
         display: none;
     }
-    .homearea {
+    .home-area {
         height: 400px;
     }
-    .latestnewstext {
+    .latest-news-text {
         font-size: 50px;
     }
-    .pgbreak {
+    .pg-break {
         height: 250px;
     }
-    .musicmod {
+    .music-mod {
         left: 10%;
     }
-    .pgbreak2 {
+    .pg-break-2 {
         height: 350px;
     }
 }
@@ -418,28 +460,28 @@ section {
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) {
-    .homearea {
+    .home-area {
         height: 650px;
     }
     .intro {
         margin-top: 380px;
         display: inherit;
     }
-    .introtext {
+    .intro-text {
         font-size: medium;
         margin-top: -60px;
     }
-    .latestnewstext {
+    .latest-news-text {
         font-size: 50px;
     }
-    .upcomingbg,
-    .tourbg {
+    .upcoming-bg,
+    .tour-bg {
         height: 300px;
     }
-    .pgbreak {
+    .pg-break {
         height: 300px;
     }
-    .musicmod {
+    .music-mod {
         left: 10%;
     }
 }
@@ -447,34 +489,34 @@ section {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
-    .homearea {
+    .home-area {
         height: 800px;
     }
     .intro {
         margin-top: 500px;
         display: inherit;
     }
-    .latestnewstext {
+    .latest-news-text {
         font-size: 5vw;
     }
-    .upcomingbg,
-    .tourbg {
+    .upcoming-bg,
+    .tour-bg {
         height: 500px;
     }
-    .pgbreak {
+    .pg-break {
         height: 400px;
     }
-    .musicmod {
+    .music-mod {
         left: 5%;
     }
-    .introtext {
+    .intro-text {
         margin-top: 0px;
     }
-    .pgbreak2 {
+    .pg-break-2 {
         height: 550px;
     }
-    .newfilm,
-    .newband {
+    .new-film,
+    .new-band {
         height: 150px;
     }
 
@@ -483,38 +525,38 @@ section {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
-    .homearea {
+    .home-area {
         height: 1000px;
     }
     .intro {
         margin-top: 65vh;
         display: inherit;
     }
-    .introtext {
+    .intro-text {
         font-size: larger;
         margin-top: 50px;
     }
-    .latestnewstext {
+    .latest-news-text {
         font-size: 5vw;
     }
-    .upcomingbg,
-    .tourbg {
+    .upcoming-bg,
+    .tour-bg {
         height: 600px;
     }
-    .pgbreak {
+    .pg-break {
         height: 450px;
     }
-    .musicmod {
+    .music-mod {
         left: 5%;
     }
-    .pgbreak2 {
+    .pg-break-2 {
         height: 550px;
     }
-    .newsize {
+    .new-size {
         height: 300px;
     }
-    .newfilm,
-    .newband {
+    .new-film,
+    .new-band {
         height: 230px;
     }
 }
