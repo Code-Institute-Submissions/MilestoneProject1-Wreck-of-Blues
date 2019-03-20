@@ -10,7 +10,7 @@ You can view the website live on [GitGub Pages](https://wreckofblues-milestonepr
 
 ## UX
 
- This website should help prospective clients to sample the band by highlighing their performance, reviews and keep viewers up-to-date with coming shows. 
+ This website should help prospective clients to sample the band by highlighting their performance, reviews and keep viewers up-to-date with coming shows. 
  At the moment the band uses spotify, youtube and facebook as their main out-sourcing of their material. This site should help centralize their material, ensuring easier access for viewers under one site.
 
 The band has their own style which this site tries to stay true to aa well as using a stark contrast with orange to highlight and pop important information. 
@@ -32,16 +32,16 @@ The background is an opaque orange that highlights over the background without o
 
 ### Introduction 
 
-The site opens to a strong welcome page of the band with a quote, in swedish, from Pontus Snibb. An eye catching "Latest News" in a contrast of orange against the soft blue 
-highlights the next gig and their lastest song. Both these links will open new appropriate pages to find/sample the latest the band has been working on.
+The site opens to a strong welcome page of the band with a quote, in Swedish, from Pontus Snibb. An eye catching "Latest News" in a contrast of orange against the soft blue 
+highlights the next gig and their lastest song. 
 
 ### Tour Shows 
 
-The bands next gigs/shows posters are advertised  Also a quick link to their Facebook page for more detailed information on their shows.
+The bands next gigs/shows posters are advertised, also a quick link to their Facebook page for more detailed information on their shows.
 
 ### Music 
 
-An embeded Spotify player which plays their current and previous album. The Spotify player allows for 30sec of samples before asking to join spotify for free, or if already a member a quick access to Wreck of blues. In Sweden spotify is a very common app on devices.
+An embedded Spotify player which plays their current and previous album. The Spotify player allows for 30sec of samples before asking to join spotify for free, or if already a member a quick access to Wreck of blues. In Sweden spotify is a very common app on devices.
 News articles on the band performances and reviews are also presented here. 
 
 ### Video 
@@ -58,10 +58,10 @@ The form is not currently complete, for the writer has not learnt the next proce
 
 A quick link to other sources for the band.
 
-### Future Includions
+### Future Inclusions
 
 At the moment the band's merchandise is limited but the band wants to increase their stock. When this happens, a merchandise area on this site will be needed.
-At current the only object you can physically purchase is their albums from amazon. 
+At current the only object you can physically purchase is their albums from Amazon. 
 The band has said merchandise is not as important, it will however be a needed feature in the future. 
 An extra page for gig and tour photos should be included in future developments. 
  
@@ -82,6 +82,7 @@ An extra page for gig and tour photos should be included in future developments.
 
 Through out the project, the different sections has their own id. The navbar links has been checked and go to the right positions.
 The Navbar is from bootstrap and has been modified by using the provided documentation. I did run into some problems for placement of the navbar for the right hand side.
+ 
 
 ### Latest News
 
@@ -89,12 +90,12 @@ Both buttons open links to outsourced material. First is to their next gig on fa
 
 ### Tour Shows
 
-The posters have links to Facebook. When clicked, a new page for the link will appear, at present these links all head to the events page of the Facebook page. 
-These are old events that had the better posters. 
+This area show cases future gigs/shows. Under is a quick link to their Facebook events. As up-to-date events happen, the posters will have a link to the events. At this time, the information about
+these events are limited. At middle devices, one of the posters disappears allowing better visual appearances. Also shows the writer has an understanding of the process.
 
 ### Music
 
-I used Spotify embedded players, for these was the only source to their music without purchasing the music tracks myself. Spoitfy has a free service where the viewer is able to listen to 30secs per track, 
+I used Spotify embedded players, for these was the only source to their music without purchasing the music tracks myself. Spotify has a free service where the viewer is able to listen to 30secs per track, 
 before been told to 'sign in.' For a premium member, these players allow full access to these two cds. These players worked on the writers computer and tested on his personal phone.
 
 ### Video
@@ -104,12 +105,12 @@ To show different skill set, these video is embedded youtube and not a link to a
 ### Contact form
 
 Form is not completed as such that the form will not submit but will reset. A mondal will drop, with a warning that the band is not taking any bookings as such. Once I understand the next process,
-I will make these avaiable for the public. 
+I will make these available for the public. 
 At this moment, an error sign will open if the required field is not filled in (only address is optional).
 
 ### Social link
 
-Social logos has been taken from [Font Awesome](https://fontawesome.com/) and been linked to outsourced material, like facebook, youtube, amazon, spotify.
+Social logos has been taken from [Font Awesome](https://fontawesome.com/) and been linked to outsourced material, like facebook, youtube, Amazon, spotify.
 All these links will open new pages.
 Links to the top of the page has been tested and all go to the beginning of the page.
 
@@ -131,14 +132,14 @@ You can see the website live on [GitGub Pages](https://wreckofblues-milestonepro
 
 
 ### Quote
-Pontus Snibbs quote has been aquired from "Wreck of Blues" facebook page (Permission from Mr Snibb).
+Pontus Snibbs quote has been acquired from "Wreck of Blues" facebook page (Permission from Mr. Snibb).
 
 ### Media
 
 All photos and videos has been given permission from "Pontus Snibb's Wreck of Blues." 
-Photos has been gathered from "Pontus Snibb's Wreck of Blues" facebook and google search.
+Photos has been gathered from "Pontus Snibb's Wreck of Blues" facebook and Google search.
 Videos are from Youtube.
-Music are from Spoitfy.
+Music are from Spotify.
 
 ### Acknowledgements
 
@@ -155,3 +156,5 @@ spotify- https://developer.spotify.com/documentation/widgets/guides/adding-a-spo
 Youtube- https://www.w3schools.com/HTML/html_youtube.asp
 
 color finder- https://imagecolorpicker.com/
+
+Spell checker- https://www.jspell.com/public-spell-checker.html
