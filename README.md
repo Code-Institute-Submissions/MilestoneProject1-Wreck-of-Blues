@@ -113,6 +113,16 @@ Social logos has been taken from [Font Awesome](https://fontawesome.com/) and be
 All these links will open new pages.
 Links to the top of the page has been tested and all go to the beginning of the page.
 
+### Writer's Notes
+
+My first attempt at this site was using Bootstrap v3. While the site looked correct, after talking to my mentor, the site was not a professional site. I was asked to redo the project and use the latest 
+version of Bootstrap. While annoyed after working on the first version for some time, the second attempt did truly show a lack of knowledge of the first attempt. I spent allot more time reading the 
+documentation of Bootstrap and I believe, I have a better understand of trouble shooting my own site.
+
+I major problem I have, is the use of percentages in HTML. On this site I still used percentages on the iframes. While testing on [W3C Markup Validation Service](https://validator.w3.org/) this showed that I forgot
+To add 'alt' to my pictures, the use of percentages on HTML and that some sections don't have any headings (Navbar). Another warning I received was the use of Swedish for the quote, as the main viewers for the site,
+I believe leaving the quote as it is, is better than translating it back to English. I could have changed it just for the assignment, but by highlighting it here, I believe I have shown knowledge that I'm aware
+of the issue and has a valid point. 
 
 ## Deployment
 

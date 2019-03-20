@@ -63,6 +63,7 @@ section {
     text-shadow: black 1px 1px;
 }
 
+
 /*----------Navbar--------*/
 
 .bg-light {
@@ -99,6 +100,7 @@ section {
     border-bottom-right-radius: 5px;
 
 }
+
 
 /*----------Home Area--------*/
 
@@ -140,6 +142,15 @@ section {
     background-attachment: fixed;
 }
 
+.newbgb {
+    background-image: url(../assets/pave.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
 .rownews {
     padding-bottom: 2.5vh;
 }
@@ -209,6 +220,7 @@ section {
     width: 100%;
     background-color: #272c33;
 }
+
 /*----------Contact--------*/
 
 .pgbreak2 {
