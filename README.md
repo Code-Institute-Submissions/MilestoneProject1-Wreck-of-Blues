@@ -19,9 +19,20 @@ it further encourages viewers to view their other source material.
 
 ## Technologies
 
-1- Html
-2- Css
-3- Bootstrap 4
+1.- [9 Cloud](https://c9.io)
+    - The project uses **9 Cloud** for creating the website.
+2.- [GitHub](https://github.com/)
+    - The project uses **GitHub** for backup saving and to host the site.
+3.- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+4.- [Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap** for website responsive and correct structure though out the site.
+5.- [Font Awesome](https://fontawesome.com/)
+    - The project uses **Font Awesome** modify text and use for social links and logos.
+6.- [Google Font](https://fonts.google.com/)
+    - The project uses **Google Font** modify text font.
+7.- [Google Color Picker](https://www.google.com/search?client=firefox-b-d&q=css+color+picker)
+    - The project uses **Google CSS Color Picker** to test and use correct colour schemes.
 
 ## Features
 
@@ -64,24 +75,6 @@ At current the only object you can physically purchase is their albums from Amaz
 The band has said merchandise is not as important, it will however be a needed feature in the future. 
 An extra page for gig and tour photos should be included in future developments. 
  
-## Technologies Used
-
-1.- [9 Cloud](https://c9.io)
-    - The project uses **9 Cloud** for creating the website.
-2.- [GitHub](https://github.com/)
-    - The project uses **GitHub** for backup saving and to host the site.
-3.- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-4.- [Bootstrap](https://getbootstrap.com/)
-    - The project uses **Bootstrap** for website responsive and correct structure though out the site.
-5.- [Font Awesome](https://fontawesome.com/)
-    - The project uses **Font Awesome** modify text and use for social links and logos.
-6.- [Google Font](https://fonts.google.com/)
-    - The project uses **Google Font** modify text font.
-7.- [Google Color Picker](https://www.google.com/search?client=firefox-b-d&q=css+color+picker)
-    - The project uses **Google CSS Color Picker** to test and use correct colour schemes.
-
-    
 ## Testing
 
 ### Introduction
