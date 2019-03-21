@@ -288,6 +288,20 @@ row {
     margin-bottom: 20px;
 }
 
+.modal-content {
+    top: 300px;
+}
+
+.modal-footer,
+.modal-header {
+    background-color: rgb(188, 119, 22, 0.8);
+}
+
+.modal-title {
+    color: white;
+    font-weight: bolder;
+}
+
 /*----------Footer--------*/
 
 .footer {
