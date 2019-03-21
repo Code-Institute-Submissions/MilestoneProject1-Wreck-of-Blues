@@ -6,14 +6,14 @@ A central website to show and advertise the band "Pontus Snibb's Wreck of Blues.
 Currently the band has a lot of content on many different sites and this website should provide a central location so viewers can observe, example and interact with the band.
 
 ## Demo
-You can view the website live on [GitGub Pages](https://wreckofblues-milestoneproject1-brendanoshea.c9users.io/main.html).
+You can view the website live on [GitGub Pages](https://brendanoshea84.github.io/MilestoneProject1-Wreck-of-Blues/).
 
 ## UX
 
- This website should help prospective clients to sample the band by highlighting their performance, reviews and keep viewers up-to-date with coming shows. 
+ This website should help prospective clients to sample the band by highlighting their performance and keep viewers up-to-date with coming shows. 
  At the moment the band uses spotify, youtube and facebook as their main out-sourcing of their material. This site should help centralize their material, ensuring easier access for viewers under one site.
 
-The band has their own style which this site tries to stay true to aa well as using a stark contrast with orange to highlight and pop important information. 
+The band has their own style which this site tries to stay true to as well as using a stark contrast with orange to highlight and pop important information. 
 As the band already has a lot of internet sources, this site centralizes these sites and also provides quick links. Therefore while this site showcases many of the highlights, 
 it further encourages viewers to view their other source material. 
 
@@ -42,8 +42,7 @@ The bands next gigs/shows posters are advertised, also a quick link to their Fac
 ### Music 
 
 An embedded Spotify player which plays their current and previous album. The Spotify player allows for 30sec of samples before asking to join spotify for free, or if already a member a quick access to Wreck of blues. In Sweden spotify is a very common app on devices.
-News articles on the band performances and reviews are also presented here. 
-
+ 
 ### Video 
 
 A Youtube embedded player that shows a live 12min performance of the band. This shows the skills and the interaction of the band towards the audience. 
@@ -67,15 +66,22 @@ An extra page for gig and tour photos should be included in future developments.
  
 ## Technologies Used
 
-1.- [JQuery](https://jquery.com)
+1.- [9 Cloud](https://c9.io)
+    - The project uses **9 Cloud** for creating the website.
+2.- [GitHub](https://github.com/)
+    - The project uses **GitHub** for backup saving and to host the site.
+3.- [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
-2.- [Bootstrap](https://getbootstrap.com/)
-    - The project uses **Bootstrap** for grid.
-3.- [Font Awesome](https://fontawesome.com/)
+4.- [Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap** for website responsive and correct structure though out the site.
+5.- [Font Awesome](https://fontawesome.com/)
     - The project uses **Font Awesome** modify text and use for social links and logos.
-4.- [Google Font](https://fonts.google.com/)
-    - The project uses **Google Font** modify text.
+6.- [Google Font](https://fonts.google.com/)
+    - The project uses **Google Font** modify text font.
+7.- [Google Color Picker](https://www.google.com/search?client=firefox-b-d&q=css+color+picker)
+    - The project uses **Google CSS Color Picker** to test and use correct colour schemes.
 
+    
 ## Testing
 
 ### Introduction
@@ -112,7 +118,6 @@ At this moment, an error sign will open if the required field is not filled in (
 
 Social logos has been taken from [Font Awesome](https://fontawesome.com/) and been linked to outsourced material, like facebook, youtube, Amazon, spotify.
 All these links will open new pages.
-Links to the top of the page has been tested and all go to the beginning of the page.
 
 ### Writer's Notes
 
@@ -120,15 +125,20 @@ My first attempt at this site was using Bootstrap v3. While the site looked corr
 version of Bootstrap. While annoyed after working on the first version for some time, the second attempt did truly show a lack of knowledge of the first attempt. I spent allot more time reading the 
 documentation of Bootstrap and I believe, I have a better understand of trouble shooting my own site.
 
-I major problem I have, is the use of percentages in HTML. On this site I still used percentages on the iframes. While testing on [W3C Markup Validation Service](https://validator.w3.org/) this showed that I forgot
+A major problem I have, is the use of percentages in HTML. On this site I first used percentages on the iframes, I changed and modified iframes though CSS. While testing on [W3C Markup Validation Service](https://validator.w3.org/) this showed that I forgot
 To add 'alt' to my pictures, the use of percentages on HTML and that some sections don't have any headings (Navbar). Another warning I received was the use of Swedish for the quote, as the main viewers for the site,
 I believe leaving the quote as it is, is better than translating it back to English. I could have changed it just for the assignment, but by highlighting it here, I believe I have shown knowledge that I'm aware
 of the issue and has a valid point. 
 
+I also had issues with deplovement of the website on github. My files were named wrong, and also on the same level. After renaming the files, move the main.css to the assest folder and move the pictures into a new 
+folder in the assests. After doing so, the site worked. 
+
 ## Deployment
 
-You can see the website live on [GitGub Pages](https://wreckofblues-milestoneproject1-brendanoshea.c9users.io/main.html).
+You can see the website live on [GitGub Pages](https://brendanoshea84.github.io/MilestoneProject1-Wreck-of-Blues/).
 
+This page was created using 9Cloud and hosted from GitHub. I deployed this site by logging in, choosing the right GitHub reposity and going into settings. By going down half the page, theres the option on making your 
+site live. Then you website address is aviable. 
 
 
 ### Quote
